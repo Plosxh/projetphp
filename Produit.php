@@ -21,4 +21,9 @@ function __construct($array){
 
 }
 
+function ajouterProduit() {
+
+  
+}
+
  ?>
