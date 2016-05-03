@@ -1,6 +1,8 @@
 <?php
 Class Produit{
 public $id;
+public $idGroupe;
+public $nom;
 public $code;
 public $marque;
 public $urlImage;
@@ -11,15 +13,18 @@ public $note;
 
 function __construct($array){
   $this->id = $array[0];
-  $this->code =$array[1];
-  $this->marque= $array[2];
-  $this->urlImage = $array[3];
-  $this->description = $array[4];
-  $this->prix = $array[5];
-  $this->poids = $array[6];
-  $this->note = $array[7];
+  $this->idGroupe = $array[1];
+  $this->nom = $array[2];
+  $this->code =$array[3];
+  $this->marque= $array[4];
+  $this->urlImage = $array[5];
+  $this->description = $array[6];
+  $this->prix = $array[7];
+  $this->poids = $array[8];
+  $this->note = $array[9];
 
 }
+
 
 function ajouterProduit() {
 

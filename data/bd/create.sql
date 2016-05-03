@@ -16,6 +16,8 @@ create type etat as enum(
 
 CREATE TABLE produit
 ( id	INTEGER primary key,
+	idGroupe INTEGER,
+	nom STRING,
 	code STRING,
   marque STRING,
   urlimage STRING,
@@ -46,7 +48,8 @@ CREATE TABLE stock
 ( id	INTEGER primary key,
 	pointure INTEGER,
   couleur STRING,
- quantité INTEGER);
+ 	quantité INTEGER
+	produit INTEGER);
 
  CREATE TABLE commande
  ( idcommande INTEGER	 primary key,
