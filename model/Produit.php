@@ -23,7 +23,16 @@ function __construct($array){
 
 function ajouterProduit() {
 
-  
+  $id = htmlspecialchars($_POST["id"]);
+  $code = htmlspecialchars($_POST["code"]);
+  $marque = htmlspecialchars($_POST["marque"]);
+  $urlImage = htmlspecialchars($_POST["url"]);
+  $description = htmlspecialchars($_POST["description"]);
+  $prix = htmlspecialchars($_POST["prix"]);
+  $poids = htmlspecialchars($_POST["poids"]);
+  $note = htmlspecialchars($_POST["note"]);
+  }
+
 }
 
  ?>
