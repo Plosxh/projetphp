@@ -1,0 +1,90 @@
+body{
+  background-color: #D1D5D8;
+  font-family: Calibri, Arial, sans-serif;
+  margin: auto;
+}
+
+/*--Entête --*/
+header{
+  background-color:#3E4B69;
+  align-self: auto;
+}
+
+header + div{
+  position: relative;
+  display: block;
+  color : white;
+  text-align: center;
+}
+
+h1{
+  color : white;
+  text-align: center;
+}
+
+header + div p{
+
+}
+
+#RightCorner{
+  position: relative;
+  display: inline-block;
+  color : white;
+  width: 15em;
+  }
+
+
+header div p a:link{
+  color: white;
+}
+header div p a:visited{
+  color: white;
+}
+
+
+/*--Menu de navigation --*/
+nav ul{
+
+  padding-left: 0px;
+  margin-bottom: 1.5em;
+}
+
+nav ul li{
+  display: inline-block;
+  vertical-align: top;
+}
+nav ul li a{
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 0.5em;
+}
+
+nav ul li a:link{
+  color : white;
+  background-color:#54acd2 ;
+}
+
+nav ul li a:visited{
+  color : white;
+  background-color:#54acd2 ;
+}
+
+
+/*--Bas de page --*/
+footer{
+  height: 10em;
+  background-color:#3E4B69;
+  color : white;
+  display: block;
+}
+
+footer a{
+  display:block;
+}
+
+footer a:link{
+  color: white;
+}
+
+footer a:visited{
+  color: white;
+}
