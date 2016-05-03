@@ -8,7 +8,7 @@ class ProduitDAO{
     $sth = $this->db->query($req);
   }
   function __construct(){
-    $this->db = new PDO('sqlite:produit.bd');
+    $this->db = new PDO('sqlite:../data/bd/produit.bd');
   }
 }
 
